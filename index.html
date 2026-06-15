@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PWA responsive sobre razas de gatos, cuidados y curiosidades.">
+  <meta name="theme-color" content="#6d4c41">
+  <title>Mundo Gatuno - PWA</title>
+
+  <!-- Fuente externa de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos externos de Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="logo" href="#inicio" aria-label="Ir al inicio">
+        <i class="fa-solid fa-cat" aria-hidden="true"></i>
+        Mundo Gatuno
+      </a>
+      <ul class="nav-links">
+        <li><a href="#razas">Razas</a></li>
+        <li><a href="#cuidados">Cuidados</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Activar modo oscuro">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        <span>Modo oscuro</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-content">
+        <p class="tagline">PWA responsive</p>
+        <h1 id="titulo-principal">Descubre el mundo de los gatos</h1>
+        <p>Aprende sobre razas, cuidados básicos y datos curiosos de tus compañeros felinos.</p>
+        <a class="btn" href="#razas">Ver gatos</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80" alt="Gato naranja mirando hacia la cámara" class="hero-img">
+    </section>
+
+    <section id="razas" class="section" aria-labelledby="titulo-razas">
+      <h2 id="titulo-razas">Razas destacadas</h2>
+      <p class="section-text">Contenido generado dinámicamente con JavaScript desde un array de objetos.</p>
+      <div id="cat-container" class="cards" aria-live="polite"></div>
+    </section>
+
+    <section id="cuidados" class="section care-section" aria-labelledby="titulo-cuidados">
+      <h2 id="titulo-cuidados">Cuidados esenciales</h2>
+      <div class="care-grid">
+        <article class="care-card">
+          <i class="fa-solid fa-bowl-food" aria-hidden="true"></i>
+          <h3>Alimentación</h3>
+          <p>Ofrece comida adecuada a su edad, peso y estado de salud.</p>
+        </article>
+        <article class="care-card">
+          <i class="fa-solid fa-paw" aria-hidden="true"></i>
+          <h3>Juego diario</h3>
+          <p>Dedica tiempo a jugar para mejorar su actividad física y mental.</p>
+        </article>
+        <article class="care-card">
+          <i class="fa-solid fa-house-medical" aria-hidden="true"></i>
+          <h3>Veterinario</h3>
+          <p>Realiza revisiones periódicas y mantén sus vacunas al día.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="curiosidades" class="section" aria-labelledby="titulo-curiosidades">
+      <h2 id="titulo-curiosidades">Curiosidad felina</h2>
+      <article class="fact-box">
+        <p id="fact-text">Pulsa el botón para descubrir una curiosidad.</p>
+        <button id="fact-btn" class="btn" type="button">Nueva curiosidad</button>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mundo Gatuno. Aplicación web progresiva creada con HTML, CSS y JavaScript.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
