@@ -106,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Renderizar gatos
   renderCats(cats);
+});
 
 // Registro del Service Worker para activar la PWA y el modo offline
 if ('serviceWorker' in navigator) {
@@ -116,5 +117,3 @@ if ('serviceWorker' in navigator) {
       .catch((error) => console.log('Error al registrar el Service Worker:', error));
   });
 }
-
-// Renderizar gatos al cargar

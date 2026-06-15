@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Icono de gato">
+  <rect width="192" height="192" rx="42" fill="#6d4c41"/>
+  <circle cx="96" cy="104" r="52" fill="#ffcc80"/>
+  <path d="M56 70 L72 34 L90 72 Z" fill="#ffcc80"/>
+  <path d="M136 70 L120 34 L102 72 Z" fill="#ffcc80"/>
+  <circle cx="78" cy="100" r="7" fill="#2f211d"/>
+  <circle cx="114" cy="100" r="7" fill="#2f211d"/>
+  <path d="M96 112 L88 124 H104 Z" fill="#2f211d"/>
+  <path d="M96 124 C84 138 70 134 62 128" stroke="#2f211d" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M96 124 C108 138 122 134 130 128" stroke="#2f211d" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>
