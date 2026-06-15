@@ -58,7 +58,7 @@ No requiere instalación. Solo abre `index.html` en tu navegador web moderno.
 - Fondo: `#17110f` (muy oscuro)
 - Texto: `#fff8f0` (claro)
 
-## 📱 Responsividad
+##  Responsividad
 
 La aplicación se adapta a tres puntos de quiebre principales:
 - **Desktop**: 1100px de ancho máximo para contenido
